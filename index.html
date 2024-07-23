@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="icon" href="./icon.jpg">
+    <title>My Portfolio | Dhruvin Shah</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"></a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Tools</a>
+            <a href="#portfolio">My Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hey there,</h3>
+            <h1>I'm Dhruvin Shah.</h1>
+            <div class="social-media">
+                <a href="https://github.com/dhhruuvinOnGit"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/dhruvinshah16"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="./assets/img.jpg" alt="profile picture">
+        </div>
+    </section>
+
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <h3>A final-year Computer Science and Engineering student with a passion for working with data and deriving actionable insights.</h3>
+            <p>Currently studying at PDEU, I have developed a keen interest in data analysis, data engineering, and data science. I am an adaptable and hardworking individual who thrives in collaborative environments, bringing a strong team spirit to every project I undertake. My dedication to working with data and extracting valuable insights drives my enthusiasm for tackling complex challenges and contributing meaningfully to my field.</p>
+            <a href="https://drive.google.com/file/d/1Rz5mJj_cFyG1yj-QkTxjUP7GIDMvAps0/view?usp=sharing" class="btn">Download CV/Resume</a>
+        </div>
+    </section>
+
+    <!-- service/tools section -->
+    <section class="services" id="services">
+        <h2 class="heading"y>Tools and Technology</h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+                <p>Python, with its robust libraries, excels in data analysis, machine learning, and web development, driving diverse projects with efficiency.</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h3>Visualization</h3>
+                <p>Visualization tools like <em>PowerBI, Python libraries and Tableau</em> leverage powerful features to deliver insightful, interactive dashboards, enhancing data comprehension and decision-making.</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-html5"></i>
+                <h3>Web Development</h3>
+                <p>Web development allows me to create dynamic, user-friendly websites and applications, leveraging modern technologies to build engaging digital experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Recent Works</h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./assets/Retalio_Logo.png" alt="img1">
+                <div class="portfolio-layer">
+                    <h4>Sales Analysis</h4>
+                    <p>Analysis of Retail Shop Sales using PowerBi</p>
+                    <a href="https://github.com/dhhruuvinOnGit/Retalio-Sales-Performance-Analysis"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./assets/power-consumption.jpg" alt="img2">
+                <div class="portfolio-layer">
+                    <h4>Power Consumption Prediction</h4>
+                    <p>Forecasting power consumption using machine learning techniques</p>
+                    <a><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./assets/e-com.jpg" alt="img3">
+                <div class="portfolio-layer">
+                    <h4>Activ Scraper</h4>
+                    <p>Real-time web scraping and analysis of the Flipkart website</p>
+                    <a><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./assets/unicorn.jpg" alt="img4">
+                <div class="portfolio-layer">
+                    <h4>Unicorn Startup Analysis</h4>
+                    <p>Python-based analysis of unicorn companies</p>
+                    <a href="https://github.com/dhhruuvinOnGit/Unicorn-Company-Analysis"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./assets/foodstorage.jpg" alt="img5">
+                <div class="portfolio-layer">
+                    <h4>Shelf Life Prediction</h4>
+                    <p>Analyze and forecast the shelf life of food products (in progress)</p>
+                    <a><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Reach Me</h2>
+
+        <form action="mailto:dhruvin.analyst@gmail.com">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="./main.js"></script>
+</body>
+</html>
